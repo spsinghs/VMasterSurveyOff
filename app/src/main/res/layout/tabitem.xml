@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:weightSum="10"
+    >
+
+    <TextView
+        android:id="@+id/textSno"
+        style="@style/tabText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        />
+    <TextView
+        android:id="@+id/textEpice"
+        style="@style/tabText"
+        android:textColor="#457DD7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        />
+
+    <TextView
+        android:id="@+id/textName"
+        style="@style/tabText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3.5"
+        />
+
+    <TextView
+        style="@style/tabText"
+        android:id="@+id/textFname"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="2.5"
+        />
+
+
+    <ImageView
+        android:layout_width="20dip"
+        android:layout_height="20dip"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:visibility="gone"
+        android:id="@+id/imageView" />
+
+    <TextView
+        style="@style/tabText"
+        android:id="@+id/textHno"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_width="wrap_content" />
+    <TextView
+        style="@style/tabText"
+        android:id="@+id/textRelType"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <TextView
+        style="@style/tabText"
+        android:id="@+id/textDOB"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <TextView
+        style="@style/tabText"
+        android:id="@+id/textDOM"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+    <TextView
+        style="@style/tabText"
+        android:id="@+id/textCast"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <TextView
+        style="@style/tabText"
+        android:id="@+id/textMobile"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+    /*String Relg="";
+    String Habit="";
+    String Vtype="";
+    String eco="";
+    String Org="";
+    String Rem="";
+    */
+    <TextView
+        android:id="@+id/textRelg"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/textHabit"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/textVtype"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/textEco"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/textOrg"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/textRem"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/textProf"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+</LinearLayout>
+
+
+
+</LinearLayout>

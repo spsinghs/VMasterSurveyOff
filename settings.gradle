@@ -1,0 +1,2 @@
+include ':app', ':opencsv-1.7'
+include ':ksoap2-android-2.5.2'

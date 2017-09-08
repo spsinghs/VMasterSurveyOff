@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Master Survey(L)</string>
+    <string name="app_login">Master Survey</string>
+    <string name="app_search">Search in E-Roll</string>
+    <string name="register">Register</string>
+    <string name="app_update">Update E-Roll</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Userid</string>
+    <string name="prompt_password">Password </string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_signup">SignUp</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string-array name="VCast">
+        <item>--Choose Voter Cast-- </item>
+        <item> Brahaman</item>
+        <item>Baniya</item>
+        <item>Jaat</item>
+        <item>Gujjar</item>
+        <item>Yadav</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="VReligion">
+        <item>--Choose Voter Religion-- </item>
+        <item> Hindu </item>
+        <item>Muslim </item>
+        <item>Sikh </item>
+        <item>Christian </item>
+        <item>Jain </item>
+    </string-array>
+
+    <string-array name="VType">
+        <item>--Choose Voter Type-- </item>
+        <item> AAP </item>
+        <item> BJP </item>
+        <item> Congress </item>
+        <item> Voter</item>
+    </string-array>
+
+    <string-array name="VHabitation">
+        <item>--Choose Voter Habitation-- </item>
+        <item>  Kothi</item>
+        <item> Flat</item>
+        <item>  Village_R</item>
+        <item> Village_U</item>
+        <item> Un-Authorized Colony</item>
+        <item> J J Culuster</item>
+        <item>  Resettelment Colony</item>
+    </string-array>
+
+    <string-array name="VEco">
+        <item>--Choose Voter Eco Status-- </item>
+        <item> Poor</item>
+        <item>  L-M</item>
+        <item>  Medium</item>
+        <item>  Upper Medium</item>
+        <item> Upper</item>
+    </string-array>
+    <string-array name="Memb">
+        <item>--Want to be Member-- </item>
+        <item> Yes</item>
+        <item>  No</item>
+    </string-array>
+
+    <string-array name="Admin">
+        <item>--Choose Admin Rights-- </item>
+        <item> Yes</item>
+        <item>  No</item>
+    </string-array>
+    <string-array name="ac">
+        <item>--Choose Assembly Constituency-- </item>
+        <item>40-New Delhi </item>
+    </string-array>
+    <string name="title_activity_voter_update">VoterUpdateActivity</string>
+</resources>
